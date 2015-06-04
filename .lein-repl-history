@@ -1,0 +1,11 @@
+(require 'clojure.core.typed)
+(clojure.core.typed/check-ns)
+exit
+(require 'clojure.core.typed)
+(clojure.core.typed/check-ns)
+exit
+(require 'clojure.core.typed)
+(clojure.core.typed/check-ns)
+exit
+(require 'clojure.core.typed)
+(clojure.core.typed/check-ns)
