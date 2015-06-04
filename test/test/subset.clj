@@ -9,5 +9,5 @@
 
 
 (deftest subset-test 
-	(:require [test.core])
-	(is-tc-e(clojure.set/subset? #{1} #{2}) Boolean))
+	(is-tc-e(clojure.set/subset? #{1} #{2}) Boolean (:require [clojure.set]
+	                                                          [test.core])))
