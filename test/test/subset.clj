@@ -1,13 +1,10 @@
 (ns test.subset
   
   (:require 	[clojure.core.typed :as t]
-                
-		[clojure.set :as set]
-                
-		[test.core]
+                [clojure.set :as set]
+                [test.core]
 		[clojure.test :refer :all]
-		[clojure.core.typed.test.test-utils :refer [is-tc-e]])
-)
+		[clojure.core.typed.test.test-utils :refer [is-tc-e]]))
 
 
 
