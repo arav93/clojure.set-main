@@ -1,5 +1,4 @@
 (ns test.subset
-  
   (:require 	[clojure.core.typed :as t]
                 [clojure.set :as set]
                 [test.core]
@@ -9,4 +8,6 @@
 
 
 
-(deftest subset-test (is-tc-e(clojure.set/subset? #{1} #{2}) Boolean))
+(deftest subset-test 
+	(:require [test.core])
+	(is-tc-e(clojure.set/subset? #{1} #{2}) Boolean))
